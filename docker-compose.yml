@@ -1,0 +1,5 @@
+project_a:
+  image: ubuntu:14.04.3
+  volumes:
+    - .:/app
+  command: sleep 1000
